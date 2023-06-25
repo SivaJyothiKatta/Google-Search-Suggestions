@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.suggestion-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+}
+
+.search-container {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px 4px 8px;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+}
+
+.input {
+  color: #64748b;
+  font-family: Roboto;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+.suggestion-list {
+  padding: 0 12px 14px 12px;
+}
